@@ -19,9 +19,9 @@ except ImportError:
     mocca_envs = None
 
 try:
-    import custom_envs  # pytype: disable=import-error
+    import battery_operation  # pytype: disable=import-error
 except ImportError:
-    custom_envs = None
+    battery_operation = None
 
 try:
     import gym_donkeycar  # pytype: disable=import-error
